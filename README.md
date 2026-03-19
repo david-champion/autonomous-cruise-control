@@ -1,6 +1,6 @@
 # Cruise-Control-Simulation
 ## Overview
-Simulation of cruise control for a car modelled with python, automated using PID. A Kalman filter and EMA low-pass filter were used to filter artificial sensor noise.
+Simulation of cruise control for a car modelled with python automated using PID. A Kalman filter and EMA low-pass filter were used to filter artificial sensor noise.
 ## Features:
 * **Simulated Car Physics:** Modelled non-linear forces using Euler method to simulate car motion over a time period.
 * **Noisy Data:** Synthetic sensor noise was added to velocity and location measurements before they were used in PID calculations to emulate real-life measurement error.
@@ -11,7 +11,7 @@ Simulation of cruise control for a car modelled with python, automated using PID
 
 ![PID Response Curve](Figure_1.png)
 
-Response curve of top graph indicates a system where the simulated car approaches the target velocity smoothly without overshoot or jerk. Vibrations in thrust force is minimised as shown in bottom graph.
+Response curve of top graph indicates a system where the simulated car approaches the target velocity smoothly without overshoot or jerk. Vibrations in thrust force are minimised as shown in bottom graph.
 
 ## Usage
 ```bash
